@@ -1,0 +1,7 @@
+path: C:/Users/Huihao Xing/Desktop/Graduate Spring/DS 542 Deep Learning/Project/human_dataset/archive
+train: images/train
+val: images/train
+
+names:
+  0: Human
+
