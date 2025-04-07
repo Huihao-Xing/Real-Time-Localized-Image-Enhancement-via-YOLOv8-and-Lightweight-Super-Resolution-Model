@@ -1,7 +1,6 @@
-path: C:/Users/Huihao Xing/Desktop/Graduate Spring/DS 542 Deep Learning/Project/human_dataset/archive
-train: images/train
-val: images/train
+path: C:/Users/Huihao Xing/Desktop/Graduate Spring/DS 542 Deep Learning/Project
+train: segmentation/person_jpg
+val: segmentation/person_jpg_val
 
-names:
-  0: Human
-
+nc: 1
+names: ['human']
