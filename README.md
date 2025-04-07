@@ -11,13 +11,13 @@ Official implementation of our real-time image enhancement framework that combin
 - 📊 Quantitative evaluation (mAP, IoU, FPS benchmarks)
 
 ## 🛠️ Repository Structure
-├── config.yaml # Configuration for model parameters
+├── config.yaml # Configuration for data paths
 
-├── mask.py # Segmentation mask processing
-
-├── predict.py # Inference pipeline
+├── mask.py # Segmentation mask transformation
 
 ├── train.py # Model training script
+
+├── predict.py # predict mask area based on trained model
 
 ├── requirements.txt # Python dependencies
 
