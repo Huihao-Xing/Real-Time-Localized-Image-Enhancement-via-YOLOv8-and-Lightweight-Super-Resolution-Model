@@ -26,20 +26,29 @@ Official implementation of our real-time image enhancement framework that combin
 
 ## 🚀 Quick Start
 1. Install dependencies:
+   
 pip install -r requirements.txt
+
 *Make Sure to run following commands:
+
 pip install --upgrade ultralytics
 
 2. Run inference on sample images:
+   
 python predict.py --input samples/ --config config.yaml
 
 3. Train custom model:
+   
 python train.py --config config.yaml
 
 📊 Evaluation Metrics
+
 Metric	Target Performance
+
 Segmentation mAP	≥0.75
+
 Enhancement FPS	≥30 (1080p input)
+
 End-to-end Latency	<700ms
 
 
