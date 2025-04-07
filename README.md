@@ -43,4 +43,4 @@ Official implementation of our real-time image enhancement framework that combin
 - End-to-end Latency	<700ms
 
 
-- Further information is under active construction... for current contact, please email huxing@bu.edu
+## Further information is under active construction... for current contact, please email huxing@bu.edu
