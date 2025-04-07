@@ -12,10 +12,15 @@ Official implementation of our real-time image enhancement framework that combin
 
 ## 🛠️ Repository Structure
 ├── config.yaml # Configuration for model parameters
+
 ├── mask.py # Segmentation mask processing
+
 ├── predict.py # Inference pipeline
+
 ├── train.py # Model training script
+
 ├── requirements.txt # Python dependencies
+
 └── LICENSE # MIT License
 
 
