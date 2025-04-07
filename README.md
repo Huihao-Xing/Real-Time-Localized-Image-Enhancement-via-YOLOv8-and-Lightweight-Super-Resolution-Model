@@ -30,11 +30,11 @@ Official implementation of our real-time image enhancement framework that combin
   - pip install -r requirements.txt
   - pip install --upgrade ultralytics
 
-2. Run inference on sample images:
-  - python predict.py --input samples/ --config config.yaml
-
-3. Train custom model:
+2. Train custom model:
   - python train.py --config config.yaml
+
+3. Run inference on sample images:
+  - python predict.py --input samples/ --config config.yaml
 
 ## 📊 Evaluation Metrics
 - Metric	Target Performance
