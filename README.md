@@ -6,9 +6,8 @@ Official implementation of our real-time image enhancement framework that combin
 
 ## 📌 Key Features
 - 🎯 YOLOv8-based segmentation for dynamic region selection
-- 🔍 Lightweight ESRGAN for 2x-4x super-resolution
-- ⚡ TensorRT optimization for <700ms end-to-end latency
-- 📊 Quantitative evaluation (mAP, IoU, FPS benchmarks)
+- 🔍 Lightweight ESRGAN for 2x super-resolution
+- ⚡ CUDA optimization for <3s end-to-end latency
 
 ## 🛠️ Repository Structure
 ├── config.yaml # Configuration for data paths
