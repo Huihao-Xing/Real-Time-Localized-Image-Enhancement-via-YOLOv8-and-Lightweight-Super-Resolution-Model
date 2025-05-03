@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-Official implementation of our real-time image enhancement framework that combines YOLOv8 segmentation with lightweight super-resolution. Achieves 30+ FPS on consumer GPUs by selectively enhancing only regions of interest.
+Official implementation of our real-time image enhancement framework that combines YOLOv8 segmentation with lightweight super-resolution. Achieves 3-20 FPS with 0.5 to 3 seconds latency on consumer GPUs(Nvidia 3060 Laptop GPU) by selectively enhancing only regions of interest.
 
 ## 📌 Key Features
 - 🎯 YOLOv8-based segmentation for dynamic region selection
