@@ -15,9 +15,11 @@ Official implementation of our real-time image enhancement framework that combin
 
 ├── mask.py # Segmentation mask transformation
 
-├── train.py # Model training script
+├── train_gpu.py # Model training script with GPU
 
-├── predict.py # predict mask area based on trained model
+├── predict_output_gpu.py # predict mask area based on trained model with GPU
+
+├── mainx2.py # complete pipeline for model carry out
 
 ├── requirements.txt # Python dependencies
 
