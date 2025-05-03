@@ -37,6 +37,9 @@ Official implementation of our real-time image enhancement framework that combin
 3. Run inference on sample images:
   - python predict.py --input samples/ --config config.yaml
 
+4. Run mainx2.py:
+5. python mainx2.py to run a test complete version of video enhancement deployment
+
 ## 📊 Evaluation Metrics
 - Metric	Target Performance
 - Enhancement FPS:	3 - 20 (1920p*1080p input) on Nvidia 3060 Laptop GPU
