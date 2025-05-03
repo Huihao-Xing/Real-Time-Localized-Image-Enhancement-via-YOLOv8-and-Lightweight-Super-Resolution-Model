@@ -39,7 +39,7 @@ Official implementation of our real-time image enhancement framework that combin
   - python mainx2.py to run a complete version of video enhancement deployment with 2 times the pixels
   - python mainx2.py to run a complete version of video enhancement deployment with 4 times the pixels
 
-5.(OPTIONAL) Customizing YOLO segmentation model
+5. (OPTIONAL) Customizing YOLO segmentation model
   - To customize a yolo model, prepare a dataset with the original, label it using the label tool
   - Generate a yolo file using mask.py to convert label pictures to a file that yolo can read
     
