@@ -40,9 +40,8 @@ Official implementation of our real-time image enhancement framework that combin
 
 ## 📊 Evaluation Metrics
 - Metric	Target Performance
-- Segmentation mAP	≥0.75
-- Enhancement FPS	≥30 (1080p input)
-- End-to-end Latency	<700ms
+- Enhancement FPS:	3 - 20 (1920p*1080p input) on Nvidia 3060 Laptop GPU
+- End-to-end Latency: 0.5 - 3 seconds
 
 
 ## Further information is under active construction... for current contact, please email huxing@bu.edu
