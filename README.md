@@ -38,7 +38,7 @@ Official implementation of our real-time image enhancement framework that combin
   - python predict.py --input samples/ --config config.yaml
 
 4. Run mainx2.py:
-5. python mainx2.py to run a test complete version of video enhancement deployment
+  - python mainx2.py to run a test complete version of video enhancement deployment
 
 ## 📊 Evaluation Metrics
 - Metric	Target Performance
