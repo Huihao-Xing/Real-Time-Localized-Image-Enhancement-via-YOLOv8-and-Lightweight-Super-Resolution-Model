@@ -27,9 +27,7 @@ Official implementation of our real-time image enhancement framework that combin
 
 ## 🚀 Quick Start
 1. Install dependencies:
-   
   - pip install -r requirements.txt
-  - pip install --upgrade ultralytics
 
 2. Train custom model:
   - python train.py --config config.yaml
@@ -38,9 +36,13 @@ Official implementation of our real-time image enhancement framework that combin
   - python predict.py --input samples/ --config config.yaml
 
 4. Run mainx2.py and mainx4.py:
-  - python mainx2.py to run a complete version of video enhancement deployment with 2 times pixels
-  - python mainx2.py to run a complete version of video enhancement deployment with 4 times pixels
+  - python mainx2.py to run a complete version of video enhancement deployment with 2 times the pixels
+  - python mainx2.py to run a complete version of video enhancement deployment with 4 times the pixels
 
+5.(OPTIONAL) Customizing YOLO segmentation model
+  - To customize a yolo model, prepare a dataset with the original, label it using the label tool
+  - Generate a yolo file using mask.py to convert label pictures to a file that yolo can read
+    
 ## 📊 Evaluation Metrics
 - Metric	Target Performance
 - Enhancement FPS:	3 - 20 (1920p*1080p input) on Nvidia 3060 Laptop GPU
